@@ -1,0 +1,5 @@
+4class
+login github 
+type
+git config --global user.name Llamahere
+git config --global user.email aa............
