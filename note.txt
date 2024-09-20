@@ -1,5 +1,12 @@
+0913 class
 4class
 login github 
 type
 git config --global user.name Llamahere
 git config --global user.email aa............
+
+0920 class
+<!DOCTYPE html> 網站架構為html 5
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 寬度附合裝置瀏覽寬度
+href 超連結
+img src 圖片連結
