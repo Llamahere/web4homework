@@ -10,12 +10,12 @@ The font size here is set to 62.5% so that
 a little easier
 */
 body {
-	margin: 0 ;
+	margin: 0 ;/*邊框*/
 	width: 800px;
-	padding: 0;
-	background: #7a2122 url('../images/body_bg.gif') repeat-x top;
+	padding: 0;/*留白*/
+	background: #7a2122 url('../images/body_bg.gif') repeat-x top;/*背景連結圖片，樣式重複，位於最上方*/
 	font-family: Helvetica, sans-serif;
-	font-size: 62.5%;
+	font-size: 62.5%;/*字型大小*/
 	color: #333;
 }
 
@@ -45,8 +45,8 @@ a:visited {
 /* This rule adds a nice style to our ampersands */
 span.amp {
 	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-	font-weight: normal;
-	font-style: italic;
+	font-weight: normal;/*字型粗細*/
+	font-style: italic;/*字型樣式*/
 }
 
 /*
