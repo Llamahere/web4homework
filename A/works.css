@@ -56,3 +56,9 @@ body::before {
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);/*陰影*/
 }
+
+/* Footer */
+.footer-custom {
+    background-color: #4A3C5F;
+    color: white;
+}
