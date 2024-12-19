@@ -5,11 +5,11 @@ const app = express();
 const PORT = 3000; // 伺服器運行的端口號
 
 // 設定靜態檔案的路徑
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'A')));
 
 // 首頁路由
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'Index.html'));
+app.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname, 'A', 'Index.html'));
 });
 
 // 啟動伺服器
