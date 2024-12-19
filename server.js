@@ -10,20 +10,20 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded());
 
 
-/*var DB = require("nedb-promises");
+var DB = require("nedb-promises");
 var ProfolioDB = DB.create(__dirname+"/profolio.db");
-var ContactDB = DB.create(__dirname+"/contact.db");*/
+var ContactDB = DB.create(__dirname+"/contact.db");
  
-// ProfolioDB.insert([
-//     { modal: "#portfolioModal1", imgSrc: "modalroundicons.png", heading: "Round Icons", text: "Graphic Design" },
-//     { modal: "#portfolioModal2", imgSrc: "startup-framework.png", heading: "Startup Framework", text: "Website Design" },
-//     { modal: "#portfolioModal3", imgSrc: "treehouse.png", heading: "Treehouse", text: "Website Design" },
-//     { modal: "#portfolioModal1", imgSrc: "roundicons.png", heading: "Round Icons", text: "Graphic Design" },
-//     { modal: "#portfolioModal2", imgSrc: "startup-framework.png", heading: "Startup Framework", text: "Website Design" },
-//     { modal: "#portfolioModal3", imgSrc: "treehouse.png", heading: "Treehouse", text: "Website Design" }
-// ])
+ ProfolioDB.insert([
+     { modal: "#portfolioModal1", imgSrc: "modalroundicons.png", heading: "Round Icons", text: "Graphic Design" },
+     { modal: "#portfolioModal2", imgSrc: "startup-framework.png", heading: "Startup Framework", text: "Website Design" },
+     { modal: "#portfolioModal3", imgSrc: "treehouse.png", heading: "Treehouse", text: "Website Design" },
+     { modal: "#portfolioModal1", imgSrc: "roundicons.png", heading: "Round Icons", text: "Graphic Design" },
+     { modal: "#portfolioModal2", imgSrc: "startup-framework.png", heading: "Startup Framework", text: "Website Design" },
+     { modal: "#portfolioModal3", imgSrc: "treehouse.png", heading: "Treehouse", text: "Website Design" }
+ ])
 
-/*server.get("/services", (req, res)=>{
+server.get("/services", (req, res)=>{
     //DB find
     var Services=[
         {icon: "fa-shopping-cart", heading:"E-Commerce", text:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."},
@@ -46,7 +46,7 @@ server.get("/profolio", (req,res)=>{
 server.post("/contact_me", (req,res)=>{
      ContactDB.insert(req.body);
      res.send("OK");
-})*/
+})
 
 server.listen(80, ()=>{
     console.log("Server is running at port 80.");
